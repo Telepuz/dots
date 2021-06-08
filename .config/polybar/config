@@ -55,7 +55,7 @@ font-5 = FontAwesome:style=Regular:size=10;2
 
 modules-left = powermenu i3 xwindow
 modules-center = date
-modules-right = spotify-icon spotify-prev spotify-cent spotify-next xkeyboard volume mem-icon memory cpu-icon cpu network
+modules-right = spotify-icon spotify-prev spotify-cent spotify-next xkeyboard volume battery wifi mem-icon memory cpu-icon cpu network
 
 ;------------------------------------------------------
 ;                 I N C L U D E S
