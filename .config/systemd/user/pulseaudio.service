@@ -1,0 +1,13 @@
+[Unit]
+ConditionUser=!root
+Description=Sound Service
+Requires=pulseaudio.socket
+
+[Service]
+ExecStart=/usr/bin/pulseaudio --daemonize=false --start --log-level=info
+Restart=on-failure
+Type=simple
+
+[Install]
+Also=pulseaudio.socket
+WantedBy=default.target

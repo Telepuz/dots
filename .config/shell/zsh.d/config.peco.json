@@ -1,0 +1,37 @@
+{
+    "Style": {
+        "Basic": [
+            "on_default",
+            "default"
+        ],
+        "SavedSelection": [
+            "bold",
+            "on_yellow",
+            "white"
+        ],
+        "Selected": [
+            "on_blue",
+            "white"
+        ],
+        "Query": [
+            "white"
+        ],
+        "Matched": [
+            "black",
+            "on_yellow"
+        ]
+    },
+    "Action": {
+        "Act.Select": [
+            "peco.ToggleRangeMode",
+            "peco.ToggleRangeMode",
+            "peco.SelectDown"
+        ]
+    },
+    "Keymap": {
+        "Pgup": "peco.ScrollPageUp",
+        "Pgdn": "peco.ScrollPageDown",
+        "C-x,C-c": "peco.Cancel",
+        "C-f": "Act.Select"
+    }
+}

@@ -1,0 +1,78 @@
+;------------------------------------------------------
+;                 G E N E R A L
+;------------------------------------------------------
+
+[settings]
+screenchange-reload = true
+
+[global/wm]
+margin-top = 20
+margin-bottom = 20
+
+;------------------------------------------------------
+;                 P A N E L
+;------------------------------------------------------
+
+[bar/top]
+include-file = ~/.config/polybar/monitor.conf
+
+width = 100%
+height = 20
+radius = 0.0
+fixed-center = true
+locale = ru_RU.utf8
+line-size = 1
+
+offset-x = 0
+offset-y = 0
+border-size = 0
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+line-color = ${colors.alert}
+border-color = ${colors.invisible}
+
+padding-left = 0
+padding-right = 0
+
+module-margin-left = 0
+module-margin-right = 0
+
+;------------------------------------------------------
+;                 F O N T S
+;------------------------------------------------------
+
+font-0 = Powerline Extra Symbols:style=Regular:size=15;3
+font-1 = Roboto Mono for Powerline:fontformat=truetype:style=bold:size=10:antialias=true;2
+font-2 = unifont:fontformat=truetype:size=10:antialias=true;1
+font-3 = siji:fontformat=truetype:pixelsize=10;1
+font-4 = Material Design Icons Desktop:style=Regular:size=13;3
+font-5 = FontAwesome:style=Regular:size=10;2
+
+;------------------------------------------------------
+;                 M O D U L E S
+;------------------------------------------------------
+
+modules-left = powermenu i3 xwindow
+modules-center = date
+modules-right = spotify-icon spotify-prev spotify-cent spotify-next xkeyboard volume mem-icon memory cpu-icon cpu network
+
+;------------------------------------------------------
+;                 I N C L U D E S
+;------------------------------------------------------
+
+include-file = ~/.config/polybar/tray.conf
+include-file = ~/.config/polybar/colors.conf
+
+include-file = ~/.config/polybar/modules/battery.conf
+include-file = ~/.config/polybar/modules/cpu.conf
+include-file = ~/.config/polybar/modules/date.conf
+include-file = ~/.config/polybar/modules/i3.conf
+include-file = ~/.config/polybar/modules/memory.conf
+include-file = ~/.config/polybar/modules/network.conf
+include-file = ~/.config/polybar/modules/powermenu.conf
+include-file = ~/.config/polybar/modules/spotify.conf
+include-file = ~/.config/polybar/modules/volume.conf
+include-file = ~/.config/polybar/modules/wifi.conf
+include-file = ~/.config/polybar/modules/xkeyboard.conf
+include-file = ~/.config/polybar/modules/xwindow.conf

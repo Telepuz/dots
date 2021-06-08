@@ -1,0 +1,9 @@
+# Hide all
+/*
+
+# Visible files
+!.gitignore
+!profiles.ini
+
+# Visible folders
+!telepuz.default

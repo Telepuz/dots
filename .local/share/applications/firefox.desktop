@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Actions=new-window;new-private-window;
+Categories=GNOME;GTK;Network;WebBrowser;
+Comment=Browse the World Wide Web
+Exec=/opt/firefox/firefox
+GenericName=Web Browser
+Icon=firefox
+Keywords=Internet;WWW;Browser;Web;Explorer
+Name=Firefox Web Browser
+StartupNotify=true
+Terminal=false
+Type=Application
+Version=1.0
+
+[Desktop Action new-window]
+Name=Open a New Window
+Exec=/opt/firefox/firefox -new-window
+
+[Desktop Action new-private-window]
+Name=Open a New Private Window
+Exec=/opt/firefox/firefox -private-window

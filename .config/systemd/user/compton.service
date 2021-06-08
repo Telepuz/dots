@@ -1,0 +1,10 @@
+[Unit]
+After=display-manager.service
+Description=Compton. Compoz manager
+
+[Service]
+ExecStart=/usr/bin/compton
+Restart=always
+
+[Install]
+WantedBy=default.target

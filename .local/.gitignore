@@ -1,0 +1,9 @@
+# Hide all
+/*
+
+# Visible files
+!.gitignore
+
+# Visible folders
+!bin
+!share

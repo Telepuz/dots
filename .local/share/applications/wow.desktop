@@ -1,0 +1,7 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=World Of WarCraft
+Exec=sh -c 'WINEPREFIX=~/.local/share/wineprefixes/WOW335 wine /mnt/data/Games/WoWCircle/Wow_x64.exe'

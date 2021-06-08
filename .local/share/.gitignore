@@ -1,0 +1,12 @@
+# Hide
+/*
+mc/history
+
+# Visible files
+!.gitignore
+
+# Visible Folder
+!applications
+!fonts
+!gxkb
+!mc

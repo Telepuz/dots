@@ -1,0 +1,11 @@
+# Hide all
+/*
+
+# Visible files
+!.gitignore
+!backlight.sh
+!bat
+!ix.sh
+!launcher.sh
+!trans-notify.sh
+!trans.sh

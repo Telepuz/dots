@@ -1,0 +1,36 @@
+# Text color
+color-link comment "cyan"
+color-link constant "bold magenta"
+color-link constant.string "bold green"
+color-link default "white"
+color-link error "bold red"
+color-link identifier "bold red"
+color-link preproc "bold blue"
+color-link special "bold yellow"
+color-link statement "bold yellow"
+color-link symbol "bold cyan"
+color-link todo "bold red"
+color-link type "bold cyan"
+color-link underlined "bold yellow"
+
+# Bars color
+color-link indent-char "green"
+color-link statusline "bold white,blue"
+color-link tabbar "bold white,blue"
+
+# Line number
+color-link current-line-number "bold blue,black"
+color-link line-number "blue"
+
+# Errors
+color-link gutter-error "red"
+color-link gutter-warning "yellow"
+
+# Line
+color-link color-column "white"
+color-link cursor-line "black"
+
+# Other
+color-link divider "blue"
+color-link symbol.brackets "blue"
+color-link type.extended "default"

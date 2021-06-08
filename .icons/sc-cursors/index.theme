@@ -1,0 +1,5 @@
+[Icon Theme]
+Comment=StarCraft cursors theme
+Directories=cursors
+Inherits=core
+Name=sc-cursors

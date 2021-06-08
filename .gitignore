@@ -1,0 +1,19 @@
+# Hide all
+/*
+
+# Visible files
+!.gitconfig
+!.gitignore
+!.xsession
+!.xsessionrc
+!.zshenv
+!README.md
+
+# Visible folders
+!.config
+!.icons
+!.local
+!.mozilla
+
+# Empty folders
+!.cache

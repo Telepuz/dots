@@ -1,0 +1,1 @@
+../../../../shell/zsh.d/zcomp.kubectl.zsh

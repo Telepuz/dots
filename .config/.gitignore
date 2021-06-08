@@ -1,0 +1,31 @@
+# Hide all
+/*
+
+# Visible files
+!.gitignore
+!compton.conf
+!redshift.conf
+!tmux.conf
+!user-dirs.dirs
+!user-dirs.locale
+!Xresources
+
+# Visible folders
+!docs
+!dunst
+!gtk-2.0
+!gtk-3.0
+!gxkb
+!homepage
+!i3
+!lxterminal
+!mc
+!micro
+!pcmanfm
+!polybar
+!rofi
+!shell
+!ssh_dots
+!systemd
+!VSCodium
+!xresources.d

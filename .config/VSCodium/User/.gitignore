@@ -1,0 +1,7 @@
+# Hide all
+/*
+
+# Visible files
+!.gitignore
+!keybindings.json
+!settings.json

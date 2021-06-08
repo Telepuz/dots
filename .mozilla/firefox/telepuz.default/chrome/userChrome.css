@@ -1,0 +1,78 @@
+@import "scrollbars.css";
+
+/* New Tab Flash */
+:root{--newtab-textbox-background-color:#222222;}
+
+#browser vbox#appcontent tabbrowser,
+#content,
+#tabbrowser-tabpanels,
+browser[type=content-primary],
+browser[type=content] > html{
+    background: #222222 !important
+}
+
+/* Toolbar buttons */
+.toolbarbutton-1 {
+    fill: #ebe4d1 !important;
+    background-color: #458588 !important;
+}
+
+/* Remove border under navbar */
+#navigator-toolbox::after {
+    border-bottom: 0px !important;
+}
+
+/* remove some borders */
+#navigator-toolbox {
+    border: none !important;
+}
+
+#sidebar-header {
+    display: none;
+}
+
+#titlebar {
+    border: none !important;
+}
+
+#TabsToolbar {
+    visibility: collapse !important;
+}
+
+#nav-bar {
+    border: none !important;
+}
+
+#nav-bar-customization-target {
+    background-color: #458588 !important;
+}
+
+#urlbar {
+    box-shadow: none !important;
+    background-color: #d3869b !important;
+    background: none !important;
+    border: none !important;
+    color : #f2e5bc !important;
+    font-weight: bold !important;
+}
+
+#urlbar:hover {
+    box-shadow: none !important;
+}
+
+#tracking-protection-icon-container,#pageActionSeparator{ border-inline-width: 0px !important; }
+.urlbar-icon,
+.urlbar-icon-wrapper,
+#tabbrowser-tabs toolbarbutton,
+toolbar toolbarbutton > .toolbarbutton-icon,
+toolbar toolbarbutton > .toolbarbutton-badge-stack,
+.titlebar-button,
+#identity-box,
+#tracking-protection-icon-container,
+.findbar-textbox~toolbarbutton,
+toolbarbutton.scrollbutton-up,
+toolbarbutton.scrollbutton-down{ background-color: transparent !important;}
+
+.panel-arrowcontainer {
+    background-color:#424242 !important;
+}

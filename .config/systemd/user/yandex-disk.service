@@ -1,0 +1,13 @@
+[Unit]
+After=display-manager.service
+Description=Yandex Disk
+
+[Service]
+ExecStart=/usr/bin/yandex-disk start -c %h/.config/yandex-disk/config.cfg
+ExecStop=/usr/bin/yandex-disk stop
+Restart=Always
+RestartSec=60
+Type=forking
+
+[Install]
+WantedBy=default.target

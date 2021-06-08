@@ -1,0 +1,10 @@
+[Unit]
+After=display-manager.service
+Description=Homepage for firefox
+
+[Service]
+ExecStart=/usr/bin/weborf -i 127.0.0.1 -p 10001 -b %h/.config/homepage
+Restart=always
+
+[Install]
+WantedBy=default.target

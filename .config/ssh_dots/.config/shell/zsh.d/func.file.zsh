@@ -1,0 +1,1 @@
+../../../../shell/zsh.d/func.file.zsh

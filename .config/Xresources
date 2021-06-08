@@ -1,0 +1,3 @@
+#include "xresources.d/theme_gruvbox_t7k"
+#include "xresources.d/xft"
+#include "xresources.d/mouse"

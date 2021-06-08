@@ -1,0 +1,8 @@
+# Hide all
+/*
+
+# Visible files
+!.gitignore
+!/colorschemes
+!bindings.json
+!settings.json

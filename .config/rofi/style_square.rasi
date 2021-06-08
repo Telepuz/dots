@@ -1,0 +1,84 @@
+configuration {
+    bw:              5;
+    click-to-exit:   true;
+    columns:         2;
+    disable-history: false;
+    dpi:             110;
+    hide-scrollbar:  true;
+    line-margin:     2;
+    line-padding:    2;
+    lines:           12;
+    location:        0;
+    padding:         10;
+    sidebar-mode:    false;
+}
+
+* {
+  text-font:                         "Fira Code 12";
+  inputbar-margin:                   3px 3px;
+  prompt-padding:                    10px 10px;
+  entry-padding:                     10px 0px 10px 0px;
+  list-element-padding:              10px;
+  list-element-margin:               @inputbar-margin;
+  list-element-border:               0px 0px 0px 4px;
+  apps-textbox-prompt-colon-padding: 10px -5px 0px 0px;
+}
+
+#window {
+  width:   50%;
+  height:  60%;
+  padding: 40px 40px 0px 40px;
+  border:  5px;
+}
+
+* {
+  background-color: @background;
+  text-color:       @foreground;
+  font:             @text-font;
+  border-color:     @background-light;
+}
+
+inputbar,
+prompt,
+textbox-prompt-colon,
+entry {
+  background-color: @background-light;
+}
+
+#inputbar {
+  children: [ prompt, textbox-prompt-colon, entry ];
+  margin: @inputbar-margin;
+}
+
+#prompt {
+  padding:          @prompt-padding;
+  background-color: @accent;
+  text-color:       @background;
+}
+
+#textbox-prompt-colon {
+  expand:  false;
+  str:     "  ::  ";
+  padding: @apps-textbox-prompt-colon-padding;
+}
+
+#entry {
+  text-color: @accent;
+  padding:    @entry-padding;
+}
+
+#element {
+  padding:          @list-element-padding;
+  margin:           @list-element-margin;
+  border:           @list-element-border;
+  background-color: @background-light;
+  border-color:     @background-light;
+}
+
+#element.selected {
+  background-color: @background-focus;
+  text-color:       @accent;
+  border-color:     @accent;
+}
+
+@import "./gruvbox.rasi"

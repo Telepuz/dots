@@ -1,0 +1,1 @@
+../../../../shell/zsh.d/comp.zsh

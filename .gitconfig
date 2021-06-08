@@ -1,0 +1,53 @@
+[user]
+    email = t7k312@gmail.com
+    name = Lex White
+
+[core]
+    editor = $EDITOR
+    pager = $PAGER
+
+[color]
+    ui = true
+
+[color "branch"]
+    current = green bold
+    local = green
+    remote = yellow
+
+[color "diff"]
+    commit = yellow bold
+    frag = magenta bold
+    meta = yellow
+    new = green bold
+    old = red bold
+    whitespace = red reverse
+
+[color "diff-highlight"]
+    newHighlight = green bold reverse
+    newNormal = green bold
+    oldHighlight = red bold reverse
+    oldNormal = red bold
+
+[color "status"]
+    added = green reverse
+    changed = yellow reverse
+    untracked = red reverse
+    deleted = red
+
+[credential]
+    helper = cache --timeout 30000
+
+[diff]
+    tool = diff
+
+[help]
+    autocorrect = 1
+
+[difftool]
+    prompt = false
+
+[log]
+    date = relative
+
+[format]
+    pretty = format:%h %Cblue%ad%Creset %ae %Cgreen%s%Creset
