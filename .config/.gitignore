@@ -4,6 +4,7 @@
 # Visible files
 !.gitignore
 !compton.conf
+!mimeapps.list
 !redshift.conf
 !tmux.conf
 !user-dirs.dirs
