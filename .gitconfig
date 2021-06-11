@@ -2,6 +2,9 @@
     email = t7k312@gmail.com
     name = Lex White
 
+[includeIf "gitdir:~/git/work/"]
+    path = ~/git/work/.gitconfig
+
 [core]
     editor = $EDITOR
     pager = $PAGER
